@@ -8,7 +8,7 @@ Para instalar e rodar este projeto, você precisará ter o PHP 8 e o MySQL insta
 
 Clone este repositório na sua máquina usando o comando 
 
-```git clone https://github.com/seuusername/seurepositorio.git``` 
+```git clone git@github.com:LuanaRipardo/teste-kinghost.git``` 
 
 Acesse a pasta ```marvel``` do projeto no terminal.
 Instale as dependências do projeto usando o comando composer install.
