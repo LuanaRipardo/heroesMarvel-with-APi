@@ -1,0 +1,1 @@
+// d)Apenas I (md5) é considerado inseguro para criptografia.

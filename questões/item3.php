@@ -1,0 +1,1 @@
+a) if (idade >= 18 && peso > 50) {console.log('Você pode doar sangue!');} else {console.log('Você não pode doar sangue!');}

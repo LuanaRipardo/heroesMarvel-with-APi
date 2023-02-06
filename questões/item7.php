@@ -1,0 +1,1 @@
+SELECT Nome FROM Pessoas WHERE Idade > 20 AND Idade < 40;

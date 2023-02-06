@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to right bottom, black, #8B0000);
+  }
+
+  a {
+color: black;
+text-decoration: none;
+}
+
+a:hover {
+color: red;
+background-color: darkred;
+transition: background-color 0.3s ease;
+}
+
+.stories-button {
+position: fixed;
+top: 10px;
+right: 32px;
+background-color: black;
+color: red;
+font-size: 16px;
+letter-spacing: 2px; /* espessura da letra */
+font-weight: bold; /* negrito */
+font-size: 1.2rem; 
+font-family: "Marvel", sans-serif;
+padding: 15px 20px;
+border-radius: 50px;
+text-align: center;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19), 0px 6px 6px rgba(0, 0, 0, 0.23);
+transition: all 0.3s ease;
+}
+.stories-button:hover {
+background-color: red;
+color: white;
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.19), 0px 10px 10px rgba(0, 0, 0, 0.23);
+transform: translateY(-3px);
+}
+
+.stories-button:active {
+transform: translateY(3px);
+box-shadow: none;
+}
+
+.textprincipal {
+
+font-size: 6.5rem;
+font-weight: bold;
+color: #c1b310;
+font-family: 'Marvel', 
+sans-serif;
+
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+.card h5 {
+    font-family: 'Marvel', sans-serif;
+    font-weight: bold;
+    width: 70%;
+    padding: 10px;
+  }
+
+.card p {
+    width: 70%;
+    padding: 10px;
+  }
+
+  .principal {
+    font-size: 35px;
+  }
